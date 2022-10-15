@@ -7,7 +7,7 @@ import "./Rating.css";
 
 type Props = {
   value: number;
-  className: string;
+  className?: string;
 };
 const Rating = ({ value, className }: Props) => {
   const numFullStars = Math.floor(value);
